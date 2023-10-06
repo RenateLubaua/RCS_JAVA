@@ -3,18 +3,36 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        sample3();
+        sample4();
 
     }
 
+
+    public static void sample4(){
+        Scanner sc=new Scanner(System.in);
+        for(int i=0; i<7; i++){
+            System.out.println("Lūdzu ievadi skaitli");
+            int num1=sc.nextInt();
+
+            if (num1%2==0) {
+                System.out.println(num1 + " ir pāra skaitlis");
+            } else {
+                System.out.println("0");
+            }
+        }
+    }
+
+
+
     public static void sample3(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Lūdzu ievadi skaitli");
 
-        int num1=sc.nextInt();
 
-        for (int i=num1; i<=6; i++){
-            System.out.println(i);
+        for (int i=0; i<5; i++){
+            System.out.println("Lūdzu ievadi skaitli");
+            int num1=sc.nextInt();
+
+            System.out.println("Rezultāts ir " + (num1+2));
         }
 
 
