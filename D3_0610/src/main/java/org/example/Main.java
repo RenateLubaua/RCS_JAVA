@@ -3,8 +3,33 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        sample4();
 
+        sample6();
+
+    }
+
+
+    public static void sample6(){
+
+        for (int i = 1; i <= 4; i++) {
+            for (int a = 1; a <= i; a++) {
+                System.out.print("&");
+            }
+            System.out.println("");
+        }
+
+    }
+
+    public static void sample5() {
+        Scanner sc = new Scanner(System.in);
+        int sum = 0;
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Lūdzu ievadi skaitli");
+            int num1 = sc.nextInt();
+            sum = sum + num1;
+        }
+
+        System.out.println("Ievadīto skaitļu summa ir "+ sum);
     }
 
 
