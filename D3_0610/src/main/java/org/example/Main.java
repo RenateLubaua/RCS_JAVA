@@ -5,7 +5,16 @@ public class Main {
     public static void main(String[] args) {
 
         sample6();
+        sample7();
 
+    }
+
+    public static void sample7(){
+        String virkne = "&";
+        for(int i=0; i<=4; i++) {
+            System.out.println(virkne);
+            virkne = virkne + "&";
+        }
     }
 
 
