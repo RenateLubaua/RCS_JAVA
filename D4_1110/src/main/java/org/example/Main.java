@@ -15,20 +15,20 @@ public class Main {
         int num1 = sc.nextInt();
         sc.nextLine();
 
-        int longest = 0;
-        for (int i = 0; i <= num1; i++) {
+        int longest =0;
+        String result="";
+
+        for (int i = 0; i < num1; i++) {
             System.out.println("Lūdzu ievadi savu frāzi");
             String frāze = sc.nextLine();
             longest = longest + frāze.length();
 
-
-            if ((frāze.length()) > 5) {
-                System.out.println("Garākā frāze ir " + frāze);
+            if ((frāze.length()) > longest) {
+                result=frāze;
             }
         }
+        System.out.println("Garākā frāze ir " + result);
 
-
-//        System.out.println("Garākā frāze ir");
 
     }
 
