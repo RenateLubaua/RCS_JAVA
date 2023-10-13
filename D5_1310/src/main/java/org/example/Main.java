@@ -7,11 +7,35 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 //       String a = sample3();
-//        System.out.println(a);
+//       System.out.println(a);
+//
+//       String b=sample4();
+//       System.out.println(b);
 
-        String b=sample4();
-        System.out.println(b);
+//        sample5(6,7);
+//        sample6("abc", "defg", "hijklmnop");
+
+        sample7(4);
+
     }
+
+    static void sample7(int a) {
+        if (a < 1) {
+            System.out.println("Kļūda");
+        } else {
+            for (int i = 0; i < a; i++) {
+                System.out.println("&&&&");
+            }
+        }
+    }
+
+    static void sample6(String a, String b, String c){
+        System.out.println(a+" "+b+" "+c);
+    }
+
+   static void sample5(int a, int b){
+       System.out.println("Summa ir " + (a+b));
+   }
 
     public static String sample4() {
         Scanner sc = new Scanner(System.in);
