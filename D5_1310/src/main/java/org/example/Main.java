@@ -6,9 +6,27 @@ import java.util.Scanner;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-       String a = sample3();
-        System.out.println(a);
+//       String a = sample3();
+//        System.out.println(a);
+
+        String b=sample4();
+        System.out.println(b);
     }
+
+    public static String sample4() {
+        Scanner sc = new Scanner(System.in);
+
+
+        String result = "";
+        for (int i = 0; i <3; i++) {
+            System.out.println("Lūdzu ievadi savu frāzi");
+            String frāze = sc.nextLine();
+            result= result+frāze;
+        }
+
+        return result ;
+    }
+
 
     public static String sample3(){
         Scanner sc = new Scanner (System.in);
