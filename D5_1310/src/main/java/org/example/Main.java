@@ -21,7 +21,7 @@ public class Main {
         for (int i = 0; i <3; i++) {
             System.out.println("Lūdzu ievadi savu frāzi");
             String frāze = sc.nextLine();
-            result= result+frāze;
+            result= result+frāze+" ";
         }
 
         return result ;
