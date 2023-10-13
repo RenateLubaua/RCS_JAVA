@@ -13,6 +13,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Lūdzu, norādi cik frāzes vēlies ievadīt");
         int num1 = sc.nextInt();
+        sc.nextLine();
 
         int longest = 0;
         for (int i = 0; i <= num1; i++) {
