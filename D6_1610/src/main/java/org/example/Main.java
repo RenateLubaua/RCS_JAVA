@@ -22,9 +22,9 @@ public class Main {
 //        int result=Tools.Power(3, 3);
 //        System.out.println(result);
 
-        int result1 = Geometrija.triangle(5, 6,9);
+        double result1 = Geometrija.triangle(5, 6,9);
         System.out.println("Trīsstūra perimetrs ir " +result1);
-        int result2 = Geometrija.quad(5,5,7,6);
+        double result2 = Geometrija.quad(5,5,7,6);
         System.out.println("Četrstūra perimetrs ir " +result2);
 
     }
