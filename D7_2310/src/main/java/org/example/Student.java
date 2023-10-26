@@ -7,16 +7,16 @@ public class Student {
     public String fakultāte;
 
     public void info(){
-        System.out.println("Studenta vārds ir " + vārds);
-        System.out.println("Studenta uzvārds ir " + uzvārds);
+        System.out.println("Studenta vārds: " + vārds);
+        System.out.println("Studenta uzvārds: " + uzvārds);
         if (kurss<1){
-            System.out.println("Studenta kurss ir "+ 1);
+            System.out.println("Studenta kurss: "+ 1);
         }else if (kurss>4) {
-            System.out.println("Kļūda, pieejami 4 kursi, pārbaudiet ievadītos datus");
+            System.out.println("Studenta kurss: Kļūda, pieejami 4 kursi, pārbaudiet ievadītos datus");
         }else{
-            System.out.println(kurss);
+            System.out.println("Studenta kurss: "+ kurss);
         }
-        System.out.println("Studenta Fakultāte ir " + fakultāte);
+        System.out.println("Studenta Fakultāte: " + fakultāte);
     }
 
 
