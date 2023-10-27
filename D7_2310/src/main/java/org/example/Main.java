@@ -9,16 +9,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Student s1 = new Student("Renāte", "Lubaua", 3, "Programmēšanas pamati");
+        Student s1 = new Student("Renāte", "Lubaua", 7, "Programmēšanas pamati");
         s1.info();
 
         System.out.println("---------------------------");
 
         Book grāmata = new Book("Aleksandrs", "Grīns", "Dvēseļu Putenis", 1934 );
         grāmata.info();
+        System.out.println("Grāmatas vecums ir: " + grāmata.vecums(2023) + " gadi");
 
-        int gadi = Book.Vecums(1934);
-        System.out.println("Grāmatas vecums ir: " + gadi + " gadi");
+
     }
 
 

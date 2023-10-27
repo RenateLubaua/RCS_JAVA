@@ -18,8 +18,9 @@ public class Book {
         this.nosaukums=nosaukums;
         this.gads=gads;
         }
-        public static int Vecums(int gads){
-        return 2003-gads;
+        public int vecums(int currentYear){
+        int vecums = currentYear -this.gads;
+        return vecums;
 
         }
     }
