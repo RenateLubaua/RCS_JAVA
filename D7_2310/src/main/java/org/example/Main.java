@@ -17,8 +17,6 @@ public class Main {
         Book grāmata = new Book("Aleksandrs", "Grīns", "Dvēseļu Putenis", 1934 );
         grāmata.info();
         System.out.println("Grāmatas vecums ir: " + grāmata.vecums(2023) + " gadi");
-
-
     }
 
 
