@@ -18,7 +18,7 @@ public class Tasks {
         System.out.println("Ievadītās frāzes ir: ");
         for (int i = 0; i < ievade.length; i++) {
 
-            System.out.println(ievade[i] + " ");
+            System.out.print(ievade[i] + " ");
         }
 
     }
