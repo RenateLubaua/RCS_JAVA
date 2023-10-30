@@ -6,26 +6,26 @@ import java.util.Random;
 public class Uzdevumi {
 
 
-public static void task2(){
+public static void task2() {
+
+    int[] a = genRandom();
+    printArr(a);
+}
+
+private static int[] genRandom(){
     Random rand = new Random();
 
-    int digits = 0;
-    for (int i=0; i<5; i++){
-        int a = rand.nextInt(7);
-        digits += a;
-        System.out.println(digits);
+    int[] arr = new int[5];
+    for (int i=0; i<arr.length; i++){
+        arr[i] = rand.nextInt(7);
     }
 
-    int[] array = new int[5];
-    for (int i=0; i<array.length; i++) {
-        array[i] = digits;
-        System.out.print(array[i] + " ");
-    }
-
-//    return printArr(array);
-
+    return arr;
 
 }
+
+
+
     private static void printArr(int[] arr){
         for (int i=0; i<arr.length; i++){
             System.out.print(arr[i] + " ");
