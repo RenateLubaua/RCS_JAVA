@@ -16,9 +16,9 @@ public class Homework {
         }
 
         int skaitļi=masīvs.length;
-        int sum=0;
+        double sum=0;
         for (int i = 0; i < masīvs.length; i++) {
-            sum += masīvs[i];
+            sum = sum + masīvs[i];
         }
         double vidējais = sum/skaitļi;
 
@@ -27,13 +27,21 @@ public class Homework {
             System.out.println("Ievadi, kādu skaitli vēlies atrast datu sistēmā");
             int meklēt = sc.nextInt();
 
+               boolean found=false;
         for (int i = 0; i < masīvs.length; i++) {
-            if (masīvs[i] == meklēt){
-                System.out.println("Meklētā skaitļa indekss ir " +i);
+            if (masīvs[i] == meklēt) {
+                System.out.println("Meklētā skaitļa indekss ir " + i);
+            }
+        }
+
+            if(found == false){
+                System.out.println("Ievadītais skaitlis datu sistēmā nav atrasts");
+            }
+
             }
         }
 
 
-    }
-}
+
+
 
